@@ -10,6 +10,7 @@
       integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Friends | Kakao Clone</title>
   </head>
   <body>
@@ -33,9 +34,6 @@
         <span class="header__icon">
           <i class="fas fa-search"></i>
         </span>
-        <!-- <span class="header__icon">
-          <i class="far fa-comment"></i>
-        </span> -->
         <span class="header__icon">
           <i class="fas fa-cog"></i>
         </span>
@@ -43,53 +41,53 @@
     </header>
     <main class="friends">
       <header class="friends__header">
-        <div class="friends__friend friend friend--lg">
+        <div class="friends__friend friend">
           <div class="friends__column">
             <img src="images/avatar.jpg" class="g-avatar friend__avatar" />
-            <div class="friend__content">
-              <span class="friend__name">
-                Sseon
-              </span>
-              <span class="friend__status">
-                enjoy coders.
-              </span>
-            </div>
+          </div>
+          <div class="friend__content">
+            <span class="friend__name">
+              Sseon
+            </span>
+            <span class="friend__status">
+              enjoy coders.
+            </span>
           </div>
         </div>
       </header>
       <div class="friends__plus">
         <h5 class="friends__title">Plus friend</h5>
-        <div class="friends__friend friend friend--lg">
+        <div class="friends__friend friend">
           <div class="friends__column">
-            <img src="images/kakao-plus.png" class="g-avatar friend__avatar" />
-            <div class="friend__content">
-              <span class="friend__name">
-                Plus friend!
-              </span>
-            </div>
+            <img src="images/kakao-plus.png" class="friend__avatar" />
+          </div>
+          <div class="friend__content">
+            <span class="friend__name">
+              Plus friend!
+            </span>
           </div>
         </div>
       </div>
       <ul class="friends__list">
         <h5 class="friends__title">Friends 14</h5>
-        <li class="friends__friend friend friend--lg">
+        <li class="friends__friend friend">
           <div class="friend__column">
-            <img src="images/avatar.jpg" class="g-avatar friend__avatar" />
+            <img src="images/avatar.jpg" class="friend__avatar" />
             <div class="friend__content">
               <span class="friend__name">
-                Sseon
+                Bom Kim
               </span>
               <span class="friend__status">
-                enjoy coders.
+                운명의 데스노트.
               </span>
             </div>
           </div>
           <div class="friend__column">
             <div class="friend__now-listening">
               <span>
-                Flower-눈물
+                As Long As You Love Me
+                <i class="fas fa-play"></i>
               </span>
-              <i class="fas fa-play"></i>
             </div>
           </div>
         </li>
@@ -120,5 +118,8 @@
         </li>
       </ul>
     </nav>
+    <div class="bigScreen">
+      <span class="bigScreen__text">Please make your screen smaller</span>
+    </div>
   </body>
 </html>
